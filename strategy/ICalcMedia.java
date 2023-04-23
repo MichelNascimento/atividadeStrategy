@@ -2,7 +2,7 @@ package strategy;
 
 public interface ICalcMedia {
 
-    double CalculaMedia(double a, double b);
-    String Situacao(double status);
+    double calculaMedia(double p1, double p2); 
+    String situacao();
     
 }
