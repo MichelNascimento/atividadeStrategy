@@ -39,7 +39,7 @@ public class Disciplina {
         return this.calcMedia.situacao(); 
     }
 
-    public double calculaMedia() {
+    public double getcalculaMedia() {
         return this.calcMedia.calculaMedia(this.p1, this.p2);
     }
     
