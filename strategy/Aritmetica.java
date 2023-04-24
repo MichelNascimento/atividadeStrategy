@@ -12,10 +12,6 @@ public class Aritmetica implements ICalcMedia{
 
     @Override
     public String situacao() {
-        if (media >= 6) {
-            return "Aprovado";
-        } else {
-            return "Reprovado";
-        }    
+        return media >= 6 ? "Aprovado" : "Reprovado";
     }
 }

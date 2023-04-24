@@ -8,9 +8,9 @@ public class Main {
         Geometrica g = new Geometrica();
 
         d.setNome("Padroes de Desenvolvimento");
-        d.setP1(10); 
+        d.setP1(5); 
         d.setP2(5);
-        d.setCalcMedia(g);    
+        d.setCalcMedia(a);    
 
         System.out.println(
             String.format("P1:%.2f P2:%.2f MEDIA:%.2f Situacao: %s",
